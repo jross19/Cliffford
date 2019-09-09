@@ -14,7 +14,7 @@ export default class jake implements IBotCommand {
 		{
 			if(!msgObject.guild.voiceConnection)
 			{
-				msgObject.reply("I am attempting to cum!")
+				msgObject.reply("I am attempting to come!")
 				msgObject.member.voiceChannel.join()
 					.then(connection =>{
 						playFile(connection)
@@ -23,7 +23,7 @@ export default class jake implements IBotCommand {
 			}
 			
 			else {
-				msgObject.reply("GET IN A FUCKING VOICE CHANNEL FIRST!");
+				msgObject.reply("GET IN A VOICE CHANNEL FIRST!");
 			}
 		}
 	}
