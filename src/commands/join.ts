@@ -21,7 +21,7 @@ export default class join implements IBotCommand {
 			}
 			
 			else {
-				msgObject.reply("GET IN A FUCKING VOICE CHANNEL FIRST!");
+				msgObject.reply("GET IN A VOICE CHANNEL FIRST!");
 			}
 		}
 	}
