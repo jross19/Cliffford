@@ -1,5 +1,5 @@
 export let config = {
-    "token" : "NTc1NDU3ODA5MzAzMzM5MDA4.XNIPDA.Ac4CKUUz9dMEMtebCl2EmqzK9Gw",
+    "token" : "NTc1NDU3ODA5MzAzMzM5MDA4.XXWnfQ.UktlZukR94uCpybXqsRyP_K9Klw",
     "prefix": "!",
     "commands": [
         "testCommand",
