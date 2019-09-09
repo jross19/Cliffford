@@ -109,7 +109,7 @@ client.login(ConfigFile.config.token);
     }
     
     if(message.content.startsWith('!help')) {
-      message.channel.send("Helpful Commands!: \n!credits - View My Social Media! \n!Glenn - Posts a picture of the world's sexiest man \n!jake - Posts a random picture of the world record holder for most mental diseases \n!day - Posts the current date \n!countdown - Posts the amount of days until Christmas \n!add num1 num2 - adds two numbers together \n!subtract num1 num2 - subtracts two numbers")
+      message.channel.send("Helpful Commands!: \n!credits - View My Social Media! \n!day - Posts the current date \n!countdown - Posts the amount of days until Christmas \n!add num1 num2 - adds two numbers together \n!subtract num1 num2 - subtracts two numbers")
     }
     
     if(message.content.startsWith('!credits')) {
