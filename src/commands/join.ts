@@ -13,7 +13,7 @@ export default class join implements IBotCommand {
 		{
 			if(!msgObject.guild.voiceConnection)
 			{
-				msgObject.reply("I am attempting to cum!")
+				msgObject.reply("I am attempting to come!")
 				msgObject.member.voiceChannel.join()
 					.then(connection =>{
 						msgObject.reply("I have Came!");
