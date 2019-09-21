@@ -10,7 +10,6 @@ loadCommands(`${__dirname}/commands`)
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`)
-  //setInterval(feelings,5000); FEELINGS ARE DISABLED TO PRESERVE INTERNET
   })
   
 client.login(ConfigFile.config.token);

@@ -1,12 +1,13 @@
 export let config = {
-    "token" : "NTc1NDU3ODA5MzAzMzM5MDA4.XXWnfQ.UktlZukR94uCpybXqsRyP_K9Klw",
+    "token" : "NTc1NDU3ODA5MzAzMzM5MDA4.XX_ZxA.r4DmmlbtHLUaUTxg2gjkzGrs3Ts",
     "prefix": "!",
     "commands": [
         "testCommand",
         "butter",
         "join",
         "disconnect",
-        "jake"
+        "jake",
+        "playTheme"
 
     ]
 }
